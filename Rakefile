@@ -11,3 +11,6 @@ task :default do
   sh 'overcommit --run'
   Rake::Task['models'].invoke
 end
+
+# Forking is great!
+# Long live open-surce
